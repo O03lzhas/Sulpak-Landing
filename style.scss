@@ -1,0 +1,201 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width:1000px;
+    margin: 0 auto;
+}
+
+// Header
+.text--header--about {
+    
+    h1 {
+        margin: 20px 0px;
+    }
+    p {
+        margin-bottom: 40px;
+    }
+}
+.text--header--about {
+    align-items: center;
+    text-align: center;
+    .imgWithButton {
+        position: relative;
+        img {
+            width: 350px;
+            height:auto;
+        }
+        i {
+            font-size: 40px;
+        }
+        .hereBtn {
+            position: absolute;
+            top:25%;
+            left:28%;
+            z-index:1;
+            background-color: red;
+            color:#fff;
+            text-decoration: none;
+            border-radius: 50%;
+            padding: 52px 25px;
+            font-size: 24px;
+            transition: .3s ease-in-out;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        
+    }
+   
+    .text--header--about--img {
+        overflow: hidden;
+        width: 1000px;
+        -webkit-box-shadow: 0px 4px 32px 11px rgba(34, 60, 80, 0.08);
+            -moz-box-shadow: 0px 4px 32px 11px rgba(34, 60, 80, 0.08);
+            box-shadow: 0px 4px 32px 11px rgba(34, 60, 80, 0.08);
+      
+        .hereBtn {
+                position: absolute;
+                top:800%;
+                left:0;
+                z-index: 1;
+                color:#fff;
+                background-color: red;
+                border-radius: 50%;
+                padding: 32px 15px;
+                text-decoration: none;
+                transition: .3s all;
+                &:hover {
+                    transform: scale(1.3);
+                    color:black;
+                }
+        }
+        img {
+            width: 1000px;
+            height: auto;
+            transition: .2s ease-in-out;
+            cursor: pointer;
+            
+            &:hover {
+                transform: scale(1.05);
+               
+            }   
+       .imgWithButton {
+             width: 500px;
+             height:200px;
+       }
+    }
+   
+    }
+    .text--header--about--imgDop {
+        display: flex;
+        flex-wrap: wrap;
+        .HardskillsIMG {
+            cursor: pointer;
+            color:#fff;
+            font-weight: 600;
+            font-size: 23px;
+            
+            
+        }
+        .HardskillsIMG__1 {
+           
+            img {
+                width:1000px;
+               
+            }
+            position: relative;
+            .img--text {
+                position: absolute;
+                top:0;
+                left:0;
+                right:0;
+                z-index:1;
+                background-color: rgba(153, 153, 153, 0.247);
+                width: 100%;
+                height:700px;
+                opacity: 0;
+                transition: .3s ease-in-out;
+                padding-top: 300px;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+        .HardskillsIMG__2 {
+            position: relative;
+            img {
+                width:500px;
+                height: 300px;
+            }
+            .img--text {
+                position: absolute;
+                top:0;
+                left:0;
+                right:0;
+                z-index:1;
+                background-color: rgba(153, 153, 153, 0.425);
+                width: 100%;
+                height:300px;
+                opacity: 0;
+                transition: .3s ease-in-out;
+                padding-top: 120px;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+        .HardskillsIMG__3 {
+            position: relative;
+            img {
+                width:500px;
+                height: 300px;
+            }
+            .img--text {
+                position: absolute;
+                top:0;
+                left:0;
+                right:0;
+                z-index:1;
+                background-color: rgba(153, 153, 153, 0.247);
+                width: 100%;
+                height:300px;
+                opacity: 0;
+                transition: .3s ease-in-out;
+                padding-top: 120px;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+       
+        .widthImg {
+            width: 1000px;
+            height: auto;
+            cursor: pointer;
+            &:hover {
+                
+            }
+        }
+        .shortImg {
+            width: 500px;
+            height: auto;
+            &:hover {
+                
+            }
+        }
+        .shortImg2 {
+            width: 500px;
+            height: auto;
+            &:hover {
+                
+            }
+        }
+    }
+}
